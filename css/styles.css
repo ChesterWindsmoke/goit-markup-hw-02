@@ -1,0 +1,178 @@
+:root {
+--primery-text-color:#434455;
+--title-text-color:#2E2F42;
+--accent-color:#4D5AE5;
+--white-color:#FFFFFF;
+}
+
+
+
+/* Колір фону та тексту для body */
+.page {
+background-color: #F5F5F5;
+color:var(--primery-text-color);
+font-family: Roboto ,sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+
+
+/* Навігація , header */
+.list{
+    list-style: none;
+}
+
+/* Колір logo */
+.logo {
+    color:#2E2F42;
+    background-color:#FFFFFF;
+    font-family: Raleway,sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.3;
+        letter-spacing: 0.03em;
+        /* identical to box height, or 133% */
+    
+       
+    
+}
+
+/* Колір logo */
+.logo > span {
+    color:#4D5AE5 ;
+    background-color: #FFFFFF;
+    font-family: Raleway,sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.3;
+        letter-spacing: 0.03em;
+        /* identical to box height, or 133% */
+    
+       
+}
+
+
+/*Оформлення site-nav*/
+.site-nav a {
+    color: #2E2F42;
+    background-color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.site-nav a:hover
+.site-nav a:focus {
+    color:#4D5AE5;
+}
+
+.site-nav a.current {
+    color: #4D5AE5;
+}
+
+
+/* Оформлення auth-nav */
+.auth-nav a {
+    color:#434455 ;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.auth-nav a:hover {
+    color: #4D5AE5;
+}
+
+.auth-nav a:focus {
+    color: #4D5AE5;
+}
+
+/*hero*/
+.hero {
+    color:#FFFFFF ;
+    background-color: #2E2F42;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1;
+     /* or 107% */
+     text-align: center;
+}
+
+
+/* Оформлення cекцій(за винятком hero) */
+.section-title {
+    color:var(--title-text-color);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    /* identical to box height, or 120% */
+    letter-spacing: 0.02em;
+}
+
+.section {
+   background-color: #F5F5F5;
+}
+
+.section-team {
+    background-color: #F4F4FD;
+}
+
+
+
+
+/* Footer */
+.footer-form {
+    color:#E7E9FC ;
+    background-color: #2E2F42;
+
+}
+
+.logo-footer  {
+    color: #F4F4FD;
+    font-family: Raleway,sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.3;
+        letter-spacing: 0.03em;
+        /* identical to box height, or 133% */
+    
+       
+
+}
+
+.logo-footer>span {
+    color:#4D5AE5;
+    font-family: Raleway,sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.3;
+        letter-spacing: 0.03em;
+        /* identical to box height, or 133% */
+    
+       
+}
+
+
+
+
+
+/*колір основного тексту #2E2F42*/
+
+/*колір вторинного тексту #434455*/
+
+/*білий колір #FFFFFF*/
+
+/* акцент #4D5AE5*/
+
+/* колір вторинного тексту №2 #E7E9FC*/
+
+/* вторинний колір фону #F4F4FD*/
+
+/* основний колір фону #F5F5F5*/
+
+/* колір фону hero #2E2F42 */
+
+

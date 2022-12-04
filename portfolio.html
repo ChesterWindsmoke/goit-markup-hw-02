@@ -5,21 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
 </head>
-<body>
+<body class="page">
     <header>
         <!--Лого-->
-        <a href="/">WEBSTUDIO</a>
+        <a href="/" class="logo"><span>WEB</span>STUDIO</a>
         <!--Навігація-->
         <nav>
-            <ul>
-                <li><a href="">Studio</a></li>
-                <li><a href="">Portfolio</a></li>
+            <ul class="site-nav list">
+                <li><a href="./index.html">Studio</a></li>
+                <li><a href="" class="current">Portfolio</a></li>
                 <li><a href="">Contacts</a></li>
             </ul>
         </nav>
         <!--Частина header-->
-        <ul>
+        <ul class="auth-nav list">
             <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a></li>
     
@@ -29,45 +34,74 @@
     <main>
         <!--Одна з секцій портфоліо-->
       <section>
-        <ul>
-            <li><a href="">All</a></li>
-            <li><a href="">Web Site</a></li>
-            <li><a href="">App</a></li>
-            <li><a href="">Design</a></li>
-            <li><a href="">Marketing</a></li>
+        <ul class="list">
+            <li><button type="button">All</button></li>
+            <li><button type="button">Web Site</button></li>
+            <li><button type="button">App</button></li> 
+            <li><button type="button">Design</button></li>
+            <li><button type="button">Marketing</button></li>
         </ul>
       </section>
 
        <!--Одна з секцій портфоліо-->
-      <section>
-        <ul>
-            <li><img src="./images/portfolio_photo-1.jpg" alt="banking app"><h3>Banking App Interface Concept</h3><p>App</p></li>
-            <li><img src="./images/portfolio_photo-2.jpg" alt="cashless payment"><h3>Cashless Payment</h3><p>Marketing</p></li>
-            <li><img src="./images/portfolio_photo-3.jpg" alt="meditaion app"><h3>Meditaion App</h3><p>App</p></li>
+      <section class="section">
+        <ul class="list">
+            <li><a><img src="./images/portfolio_photo-1.jpg" alt="banking app" width="360" height="300"><p>14 Stylish and User-Friendly App Design Concepts · 
+            Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
+            Cloud Storage App</p><h3 class="section-title">Banking App Interface Concept</h3><p>App</p></a></li>
+            <li><a><img src="./images/portfolio_photo-2.jpg" alt="cashless payment" width="360" height="300"><p>14 Stylish and User-Friendly App Design Concepts · 
+            Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
+            Cloud Storage App</p><h3 class="section-title">Cashless Payment</h3><p>Marketing</p></a></li>
+            <li><a><img src="./images/portfolio_photo-3.jpg" alt="meditaion app" width="360" height="300"><p>14 Stylish and User-Friendly App Design Concepts · 
+            Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
+            Cloud Storage App</p><h3 class="section-title">Meditaion App</h3><p>App</p></a></li>
         </ul>
       </section>
       <!--Одна з секцій портфоліо-->
-      <section>
-        <ul>
+      <section class="section">
+        <ul class="list">
             <li>
-            <img src="./images/portfolio_photo-4.jpg" alt="taxi service"><h3>Taxi Service</h3><p>Marketing</p>
+            <a><img src="./images/portfolio_photo-4.jpg" alt="taxi service" width="360" height="300"><p>14 Stylish and User-Friendly App Design Concepts · 
+            Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
+            Cloud Storage App</p><h3 class="section-title">Taxi Service</h3><p>Marketing</p></a>
             </li>
             <li>
-            <img src="./images/portfolio_photo-5.jpg" alt="screen illustrations"><h3>Screen Illustrations</h3><p>Design</p>
+            <a><img src="./images/portfolio_photo-5.jpg" alt="screen illustrations" width="360" height="300"><p>14 Stylish and User-Friendly App Design Concepts · 
+            Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
+            Cloud Storage App</p><h3 class="section-title">Screen Illustrations</h3><p>Design</p></a>
             </li>
             <li>
-            <img src="./images/portfolio_photo-6.jpg" alt="online courses"><h3>Online Courses</h3><p>Marketing</p>
+            <a><img src="./images/portfolio_photo-6.jpg" alt="online courses" width="360" height="300"><p>14 Stylish and User-Friendly App Design Concepts · 
+            Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
+            Cloud Storage App</p><h3 class="section-title">Online Courses</h3><p>Marketing</p></a>
             </li>
         </ul>
       </section>
-
-
-
+      <!--Одна з секцій портфоліо-->
+    <section class="section">
+        <ul class="list">
+            <li>
+                <a><img src="./images/portfolio_photo-7.jpg" alt="instagram stories concept" width="360" height="300"><p>14 Stylish and User-Friendly App Design Concepts · 
+                Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
+                Cloud Storage App</p><h3 class="section-title">Instagram Stories Concept</h3><p>Design</p></a>
+            </li>
+            <li>
+                <a><img src="./images/portfolio_photo-8.jpg" alt="organic food" width="360" height="300"><p>14 Stylish and User-Friendly App Design Concepts · 
+                Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
+                Cloud Storage App</p><h3 class="section-title">Organic Food</h3><p>Web Site</p></a>
+            </li>
+            <li>
+                <a><img src="./images/portfolio_photo-9.jpg" alt="Fresh Coffee" width="360" height="300"><p>14 Stylish and User-Friendly App Design Concepts · 
+                Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
+                Cloud Storage App</p><h3 class="section-title">Fresh Coffee</h3><p>Web Site</p></a>
+            </li>
+        </ul>
+    </section>
     </main>
 
     <!--Footer-->
-    <footer>
-        <a href="/">WEBSTUDIO</a>
+    <footer class="footer-form">
+        <a href="/" class="logo-footer"><span>WEB</span>STUDIO</a>
         <p>Increase the flow of customers and<br> sales for your business with digital<br>marketing & growth solutions.</p>
     </footer>
 
