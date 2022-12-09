@@ -50,8 +50,7 @@ letter-spacing: 0.02em;
 /*Оформлення site-nav*/
 .site-nav a {
     color: #2E2F42;
-    background-color: #FFFFFF;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -68,7 +67,6 @@ letter-spacing: 0.02em;
 /* Оформлення auth-nav */
 .auth-nav a {
     color:#434455 ;
-    background-color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -94,6 +92,7 @@ letter-spacing: 0.02em;
 }
 
 
+
 /* Оформлення cекцій(за винятком hero) */
 .section-title {
     color:var(--title-text-color);
@@ -105,13 +104,13 @@ letter-spacing: 0.02em;
 }
 
 .section {
-   background-color: #F5F5F5;
+   background-color: #FFFFFF;
 }
 
 
 .section-presentation {
     color:var(--title-text-color);
-    background-color:#F5F5F5;
+    background-color:#FFFFFF;
    
 }
 
@@ -166,7 +165,52 @@ letter-spacing: 0.02em;
       
 }
 
+/* Оформлення кнопки Order service */
 
+.filter-btn {
+    color:var(--white-color);
+    background-color:var(--accent-color) ;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    width: 170px;
+    height: 51px;
+    left: 635px;
+    top: 432px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); 
+    border-radius: 4px; 
+}
+
+.filter-btn:hover,.filter-btn:focus
+{  
+    color: var(--accent-color);
+    background-color: var(--white-color);
+    cursor: pointer;
+
+
+}
+
+/* Оформлення кнопок в портфоліо */
+
+.portfolio-btn {
+    color: var(--accent-color);
+    background-color: #F4F4FD;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.04em;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+.portfolio-btn:hover,.portfolio-btn:focus
+{   
+    color: var(--white-color);
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
 
 
 
